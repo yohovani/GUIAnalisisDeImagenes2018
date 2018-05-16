@@ -64,6 +64,11 @@ public class ImagenJInternalFrame extends javax.swing.JInternalFrame {
 
         jLabelImagen = new javax.swing.JLabel();
 
+        setClosable(true);
+        setIconifiable(true);
+        setMaximizable(true);
+        setResizable(true);
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(

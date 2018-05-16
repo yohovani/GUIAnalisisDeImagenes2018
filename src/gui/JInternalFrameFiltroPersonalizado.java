@@ -249,6 +249,18 @@ public class JInternalFrameFiltroPersonalizado extends javax.swing.JInternalFram
 		int y2 = size-y1;
 		fp.getX().add(x2);
 		fp.getY().add(y2);
+//		if(this.sizePincel > 1){
+//			int aux = this.sizePincel/2;
+//			for(int i=0;i<this.sizePincel/2;i++){
+//				if(x1-aux > 0 && x1+aux < size && y1-aux > 0 && y1+aux < size){
+//					fp.getX().add(x1-i);
+//					fp.getX().add(x1+i);
+//					fp.getY().add(y1-i);
+//					fp.getY().add(y1+i);
+//				}
+//					
+//			}
+//		}
 		dibujar();
 		
     }//GEN-LAST:event_formMouseDragged
