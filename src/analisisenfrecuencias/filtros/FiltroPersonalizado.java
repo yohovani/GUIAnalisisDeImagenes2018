@@ -42,6 +42,7 @@ public class FiltroPersonalizado extends FiltroFrecuencia{
 		}   
 		
 		for(int i=0;i<x.size();i++){
+			getFiltroEspacial()[x.get(i)][y.get(i)] = new NumeroComplejo(1, 1);
 			bi.setRGB(x.get(i), y.get(i), Color.BLACK.getRGB());
 		}
 
